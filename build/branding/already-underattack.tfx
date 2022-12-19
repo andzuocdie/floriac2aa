@@ -1,0 +1,7 @@
+name=hentai
+description=hentai
+admin=true
+reseller=true
+vip=true
+================== END ==================
+<<$clear>>[38;5;231m<<$target>> is already being attacked using method: <<$method>> wait <<$wait>>s.

@@ -1,0 +1,113 @@
+{
+     "Attacks" : [
+
+          {
+               "Name" : "https-kill",
+               "AttackName" : "https-kill",
+               "Description" : "Standard Home Flood",
+               "API" : "",
+               "moderation" : {
+                    "LimitMaxTime" : true,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "443",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },         
+          {
+               "Name" : "browser",
+               "AttackName" : "browser",
+               "Description" : "Standard Home Flood",
+               "API" : "",                              
+               "moderation" : {
+                    "LimitMaxTime" : true,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "443",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+           
+            "Name" : "tlsv1",
+               "AttackName" : "tlsv2",
+               "Description" : "Standard Home Flood",
+               "API" : "https:",                              
+               "moderation" : {
+                    "LimitMaxTime" : true,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "443",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },         
+          {
+               "Name" : "handshake",
+               "AttackName" : "handshake",
+               "Description" : "Standard Home Flood",
+               "API" : "",                              
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+},
+          {
+           
+            "Name" : "tcplegit",
+               "AttackName" : "tcplegit",
+               "Description" : "Standard Home Flood",
+               "API" : "",                              
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+                         },         
+          {
+               "Name" : "udpplain",
+               "AttackName" : "udpplain",
+               "Description" : "Standard Home Flood",
+               "API" : "",                              
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+                    },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+},
+          {
+           
+            "Name" : "cf-x",
+               "AttackName" : "cf-x",
+               "Description" : "Standard Home Flood",
+               "API" : "",                              
+               "moderation" : {
+                    "LimitMaxTime" : true,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "443",
+               "AdminMethod" : false,
+               "VipMethod" : true
+},
+          {
+           
+            "Name" : "http-normal",
+               "AttackName" : "http-normal",
+               "Description" : "Standard Home Flood",
+               "API" : "",                              
+               "moderation" : {
+                    "LimitMaxTime" : true,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "443",
+               "AdminMethod" : false,
+               "VipMethod" : true
+                         }
+     ]
+}
